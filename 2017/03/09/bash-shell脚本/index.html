@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 
 
-  <html class="light page-categories物理">
+  <html class="light page-post">
 
 
 <head>
   <meta charset="utf-8">
   
-  <title>Category: 物理 | ZetaoZhang&#39;s Blog</title>
+  <title>bash_shell脚本 | ZetaoZhang&#39;s Blog</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="blog" />
+    <meta name="keywords" content="nix," />
   
 
-  <meta name="description" content="Welcome!">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ZetaoZhang's Blog">
-<meta property="og:url" content="https://zetaozhang.github.io/categories/物理/index.html">
+  <meta name="description" content="vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，所以专门用一片文章记录一些关于bash脚本的内容。
+bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的解释性语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。
+bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由bash执行。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="bash_shell脚本">
+<meta property="og:url" content="https://zetaozhang.github.io/2017/03/09/bash-shell脚本/index.html">
 <meta property="og:site_name" content="ZetaoZhang's Blog">
-<meta property="og:description" content="Welcome!">
+<meta property="og:description" content="vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，所以专门用一片文章记录一些关于bash脚本的内容。
+bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的解释性语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。
+bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由bash执行。">
+<meta property="og:updated_time" content="2017-03-15T11:56:53.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ZetaoZhang's Blog">
-<meta name="twitter:description" content="Welcome!">
+<meta name="twitter:title" content="bash_shell脚本">
+<meta name="twitter:description" content="vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，所以专门用一片文章记录一些关于bash脚本的内容。
+bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的解释性语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。
+bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由bash执行。">
 
   
 
@@ -86,17 +93,8 @@
     <span id="toolbox-mobile" class="toolbox-mobile">选项</span>
   
 
-  <div class="content content-category">
-  <div class="page-header">
-
-  
-    <div class="breadcrumb">
-      <div class="location">分类</div>
-      <i class="icon-location"></i>
-    </div>
-  
-
-  
+  <div class="post-header CENTER">
+   
   <div class="toolbox">
     <a class="toolbox-entry" href="/">
       <span class="toolbox-entry-text">选项</span>
@@ -175,124 +173,92 @@
   </div>
 
 
-
-  <div class="box-blog-info">
-    <a class="avatar" href="/">
-      <img src="/images/avatar.jpg" alt="" />
-    </a>
-    <div class="info">
-      <h3 class="name" style="font-family: calligraffittiregular">
-        ZetaoZhang&#39;s Blog
-      </h3>
-      <div class="slogan">
-        Write something useful
-      </div>
-    </div>
-  </div>
-
 </div>
 
-  <section class="category-box">
-  <div class="category-title">分类</div>
-  <div class="category-list">
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#以上编辑于3-9-2017"><span class="toc-text">以上编辑于3/9/2017</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-bash-shell脚本" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">bash_shell脚本</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2017.03.09</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>zetaozhang</span>
+        </span>
+      
+
+      
+
+
+      
+        <span>
+          <i class="icon-comment"></i>
+          <a href="https://zetaozhang.github.io/2017/03/09/bash-shell脚本/#disqus_thread"></a>
+        </span>
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp热度 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>℃
+        </span>
+      
+
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
     
-      <a class="category-item" href="#其它">
-        <span class="category-name">其它</span>
-        <span class="category-size">( 3 )</span>
-      </a>
-    
-      <a class="category-item" href="#物理">
-        <span class="category-name">物理</span>
-        <span class="category-size">( 1 )</span>
-      </a>
-    
-      <a class="category-item" href="#电脑维修">
-        <span class="category-name">电脑维修</span>
-        <span class="category-size">( 1 )</span>
-      </a>
+      <p>vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，<strong>所以专门用一片文章记录一些关于bash脚本的内容。</strong></p>
+<p>bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的<strong>解释性</strong>语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。</p>
+<p>bash脚本由bash负责执行，脚本第一句<code>#!/bin/bash</code>用来指定脚本由bash执行。<code>#。。。</code>为注释行，<code>#!</code>不是注释，意义如前所述。</p>
+<p>运行bash 很简单，如下：</p>
+<figure class="highlight tcl"><table><tr><td class="code"><pre><div class="line">&gt;chmod +x <span class="keyword">filename</span>//添加可执行权限</div><div class="line">&gt;./<span class="keyword">filename</span>／／执行</div></pre></td></tr></table></figure>
+<p>当然在集群上，应当用<code>qsub filename</code>提交比较好。</p>
+<h2 id="以上编辑于3-9-2017"><a href="#以上编辑于3-9-2017" class="headerlink" title="以上编辑于3/9/2017"></a>以上编辑于3/9/2017</h2>
     
   </div>
-</section>
-
-  <ul class="list-post"><li id="其它" class="item-category-name item-title item-title-0">
-  <!--
-    <a href="" class="text-year">
-   -->
-    其它
-    <span class="category-count">( 3 )</span>
-  <!--
-  </a>
-   -->
-</li>
-<li class="item-post item">
-  <span class="post-date">02-20</span>
-
-  
-  <a class="post-title" href="/2017/02/20/markdown资料/">markdown资料</a>
+</article>
 
 
-</li>
-<li class="item-post item">
-  <span class="post-date">02-20</span>
+   
 
-  
-  <a class="post-title" href="/2017/02/20/关于博客/">关于博客</a>
-
-
-</li>
-<li class="item-post item">
-  <span class="post-date">02-25</span>
-
-  
-  <a class="post-title" href="/2017/02/25/假期总结及新学期展望/">假期总结及新学期展望</a>
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/2017/03/07/vivo2017春招/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/2017/03/10/京东实习2017春招/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
 
 
-</li>
-<li id="物理" class="item-category-name item-title item-title-1">
-  <!--
-    <a href="" class="text-year">
-   -->
-    物理
-    <span class="category-count">( 1 )</span>
-  <!--
-  </a>
-   -->
-</li>
-<li class="item-post item">
-  <span class="post-date">03-04</span>
-
-  
-  <a class="post-title" href="/2017/03/04/vasp中的tag/">vasp中的tag</a>
 
 
-</li>
-<li id="电脑维修" class="item-category-name item-title item-title-2">
-  <!--
-    <a href="" class="text-year">
-   -->
-    电脑维修
-    <span class="category-count">( 1 )</span>
-  <!--
-  </a>
-   -->
-</li>
-<li class="item-post item">
-  <span class="post-date">02-20</span>
-
-  
-  <a class="post-title" href="/2017/02/20/关于环境变量的一个小问题/">关于环境变量的一个小问题</a>
-
-
-</li>
-</ul>
 </div>
 
 
   <a id="backTop" class="back-top">
     <i class="icon-angle-up"></i>
   </a>
-
-
 
 
 
@@ -380,6 +346,42 @@
 </div>
 
 
+
+  
+      <div class="fexo-comments comments-post">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'zetaozhang';
+    
+    var disqus_url = 'https://zetaozhang.github.io/2017/03/09/bash-shell脚本/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//zetaozhang.disqus.com/count.js" async></script>
+
+
+
+    
+
+
+
+
+    
+
+  </div>
 
   
 
