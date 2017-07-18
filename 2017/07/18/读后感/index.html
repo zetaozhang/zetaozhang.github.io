@@ -7,30 +7,30 @@
 <head>
   <meta charset="utf-8">
   
-  <title>bash_shell脚本 | ZetaoZhang&#39;s Blog</title>
+  <title>读后感 | ZetaoZhang&#39;s Blog</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="nix," />
+    <meta name="keywords" content="blog" />
   
 
-  <meta name="description" content="vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，所以专门用一片文章记录一些关于bash脚本的内容。
-bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的解释性语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。
-bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由bash执行。">
+  <meta name="description" content="最近假期无聊，读了一些书。对中国现代史比较感兴趣，所以粗略读了《蒋介石传》、《毛泽东传》、《激荡三十年》。通过阅读蒋介石传与毛泽东传，我发现几点。
+1 一个人童年时代的环境与天生的性情对一个人后天的发展影响巨大，而且本性很难改变。
+2 一个人从草根到高位绝不是空手套白狼，蒋毛两人实际都遵循着相似的路线——前期积累自身价值、进入某个组织（抱大腿）、在组织中不断积累能力与经验、立功并得到提拔、在组织中">
 <meta property="og:type" content="article">
-<meta property="og:title" content="bash_shell脚本">
-<meta property="og:url" content="https://zetaozhang.github.io/2017/03/09/bash-shell脚本/index.html">
+<meta property="og:title" content="读后感">
+<meta property="og:url" content="https://zetaozhang.github.io/2017/07/18/读后感/index.html">
 <meta property="og:site_name" content="ZetaoZhang's Blog">
-<meta property="og:description" content="vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，所以专门用一片文章记录一些关于bash脚本的内容。
-bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的解释性语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。
-bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由bash执行。">
-<meta property="og:updated_time" content="2017-03-23T03:39:19.000Z">
+<meta property="og:description" content="最近假期无聊，读了一些书。对中国现代史比较感兴趣，所以粗略读了《蒋介石传》、《毛泽东传》、《激荡三十年》。通过阅读蒋介石传与毛泽东传，我发现几点。
+1 一个人童年时代的环境与天生的性情对一个人后天的发展影响巨大，而且本性很难改变。
+2 一个人从草根到高位绝不是空手套白狼，蒋毛两人实际都遵循着相似的路线——前期积累自身价值、进入某个组织（抱大腿）、在组织中不断积累能力与经验、立功并得到提拔、在组织中">
+<meta property="og:updated_time" content="2017-07-18T14:05:24.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="bash_shell脚本">
-<meta name="twitter:description" content="vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，所以专门用一片文章记录一些关于bash脚本的内容。
-bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的解释性语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。
-bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由bash执行。">
+<meta name="twitter:title" content="读后感">
+<meta name="twitter:description" content="最近假期无聊，读了一些书。对中国现代史比较感兴趣，所以粗略读了《蒋介石传》、《毛泽东传》、《激荡三十年》。通过阅读蒋介石传与毛泽东传，我发现几点。
+1 一个人童年时代的环境与天生的性情对一个人后天的发展影响巨大，而且本性很难改变。
+2 一个人从草根到高位绝不是空手套白狼，蒋毛两人实际都遵循着相似的路线——前期积累自身价值、进入某个组织（抱大腿）、在组织中不断积累能力与经验、立功并得到提拔、在组织中">
 
   
 
@@ -176,22 +176,17 @@ bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由b
 </div>
 
 
-  <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#以上编辑于3-9-2017"><span class="toc-text">以上编辑于3/9/2017</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#以上编辑于3-23-2017"><span class="toc-text">以上编辑于3/23/2017</span></a></li></ol>
-  </div>
-
 
 
 <div class="content content-post CENTER">
-   <article id="post-bash-shell脚本" class="article article-type-post" itemprop="blogPost">
+   <article id="post-读后感" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">bash_shell脚本</h1>
+    <h1 class="post-title">读后感</h1>
 
     <div class="article-meta">
       <span>
         <i class="icon-calendar"></i>
-        <span>2017.03.09</span>
+        <span>2017.07.18</span>
       </span>
 
       
@@ -207,7 +202,7 @@ bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由b
       
         <span>
           <i class="icon-comment"></i>
-          <a href="https://zetaozhang.github.io/2017/03/09/bash-shell脚本/#disqus_thread"></a>
+          <a href="https://zetaozhang.github.io/2017/07/18/读后感/#disqus_thread"></a>
         </span>
       
 
@@ -226,15 +221,17 @@ bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由b
 
   <div class="article-content">
     
-      <p>vasp运行在操作系统为linux的集群上，为了简化一些机械的工作，写bash脚本是很有用的，<strong>所以专门用一片文章记录一些关于bash脚本的内容。</strong></p>
-<p>bash脚本同常见编程语言类似，由一条条语句构成，但它是一行行直接执行的<strong>解释性</strong>语言，不需要进行编译。每行对应一条语句，语句结尾直接回车换行即可，不需要其他标志。</p>
-<p>bash脚本由bash负责执行，脚本第一句<code>#!/bin/bash</code>用来指定脚本由bash执行。<code>#。。。</code>为注释行，<code>#!</code>不是注释，意义如前所述。</p>
-<p>运行bash 很简单，如下：</p>
-<figure class="highlight tcl"><table><tr><td class="code"><pre><div class="line">&gt;chmod +x <span class="keyword">filename</span>//添加可执行权限</div><div class="line">&gt;./<span class="keyword">filename</span>／／执行</div></pre></td></tr></table></figure>
-<p>当然在集群上，应当用<code>qsub filename</code>提交比较好。</p>
-<h2 id="以上编辑于3-9-2017"><a href="#以上编辑于3-9-2017" class="headerlink" title="以上编辑于3/9/2017"></a>以上编辑于3/9/2017</h2><p>bash脚本里进行数学运算比较麻烦。整数运算可以使用<strong>大括号</strong>、<strong>expr</strong>等方式，浮点运算可使用<strong>awk</strong>、<strong>bc</strong>等方式。这里记录一下如何使用bc进行浮点运算并把结果写入文件里。另外注意bc完得到的结果小数点前如果是0就会不显示，还需要指定小数点位数。下面是例子：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> 0.1 0.2 ...</div><div class="line"><span class="keyword">do</span></div><div class="line">a=$(<span class="built_in">echo</span> <span class="string">"scale=10; (<span class="variable">$i</span>+1)*2"</span> | bc)	＃scale指定小数点位数</div><div class="line"><span class="built_in">echo</span> <span class="string">"0<span class="variable">$a</span>"</span> &gt;&gt; result	＃0用来补上小数点前的0，否则就会输出</div><div class="line">                        <span class="comment">#.888而不是0.888</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure>
-<h2 id="以上编辑于3-23-2017"><a href="#以上编辑于3-23-2017" class="headerlink" title="以上编辑于3/23/2017"></a>以上编辑于3/23/2017</h2>
+      <p>最近假期无聊，读了一些书。对中国现代史比较感兴趣，所以粗略读了《蒋介石传》、《毛泽东传》、《激荡三十年》。通过阅读蒋介石传与毛泽东传，我发现几点。</p>
+<p>1 一个人童年时代的环境与天生的性情对一个人后天的发展影响巨大，而且本性很难改变。</p>
+<p>2 一个人从草根到高位绝不是空手套白狼，蒋毛两人实际都遵循着相似的路线——前期积累自身价值、进入某个组织（抱大腿）、在组织中不断积累能力与经验、立功并得到提拔、在组织中踢掉别人上升或者适时出来单干。</p>
+<p>3 做事情并不是万事具备才能够开始，特别是毛的经历，完全是在跌跌撞撞的实践中不断总结学习的。</p>
+<p>4 遇到贵人很重要。</p>
+<p>阅读激荡三十年，我有这样几点体会。</p>
+<p>1 在制度不完善的地方就孕育着质变，在建国早期，各项制度不完善，这时涌现出了一批感想敢干的人，他们中有草根、知识分子、官员、体制内人员，他们利用制度的漏洞与制度的变化积累了早期财富，创造了一个个阶级跃升的故事。</p>
+<p>2 原始财富的积累有几种方式：钻政策漏洞（灰色地带）、背靠垄断性的国家权力与信息和资源，凭借自身的独有价值与创造力。除去最后一种，其它两种积累方式在制度完善后都会出现问题，如果不及时转型洗白则难有善终。</p>
+<p>3 特别喜欢混沌时期八仙过海各显神通的状态。</p>
+<p>随后阅读了反动派刘晓波的“宪章”以及“大国沉沦——写给中国的备忘录”。刘晓波最初只是一名普通的文学青年，后来做了大学老师。然而自参与天安门事件并目睹了天安门事件中政府的不当处理后，便走上了批评中共的道路。他批判中共主要从民主、人权、自由等方面入手。但是在拜读他的大作后，我倒是觉得他有点偏激和片面了，而且更多的只是批评政府以及抒发作为文艺青年的理想，却全然不顾中国的历史进程、现状以及其它国家的情况，可以说是有点为黑而黑，逻辑混乱了。他所宣称的人权其实是滥权，他所宣称的自由其实是政治上的绝对自由，这些即使是从普世价值角度，也是不可取的。如果他稳稳的走文艺青年的路，或许还可以成为一名人物。然而他却被西方的普世价值洗了脑，走上了民运的激进道路，实在可惜。</p>
+
     
   </div>
 </article>
@@ -244,10 +241,10 @@ bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由b
 
    
   <div class="box-prev-next clearfix">
-    <a class="show pull-left" href="/2017/03/07/vivo2017春招/">
+    <a class="show pull-left" href="/2017/04/20/大学纪录/">
         <i class="icon icon-angle-left"></i>
     </a>
-    <a class="show pull-right" href="/2017/03/10/京东实习2017春招/">
+    <a class="hide pull-right" href="/">
         <i class="icon icon-angle-right"></i>
     </a>
   </div>
@@ -361,7 +358,7 @@ bash脚本由bash负责执行，脚本第一句#!/bin/bash用来指定脚本由b
   <script>
     var disqus_shortname = 'zetaozhang';
     
-    var disqus_url = 'https://zetaozhang.github.io/2017/03/09/bash-shell脚本/';
+    var disqus_url = 'https://zetaozhang.github.io/2017/07/18/读后感/';
     
     (function(){
       var dsq = document.createElement('script');
